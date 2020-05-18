@@ -5,9 +5,6 @@ const getDirectories = source =>
     .filter(dirent => dirent.isDirectory())
     .map(dirent => dirent.name)
 
-var express = require('express')
-var app = express()
-
 const express = require('express')
 const app = express()
 const port = 3000
